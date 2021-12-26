@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-
+import Weather from "./Weather";
 import "./App.css";
 
 export default function App() {
@@ -8,6 +8,7 @@ export default function App() {
     <div className="App">
       <div className="container"></div>
       <h1 className="mb-5">Weather App</h1>
+      <Weather />
 
       <footer className="footer">
         This project was coded by Reni Koulen, is
