@@ -1,7 +1,15 @@
 import React from "react";
+import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
+
+  function handleResponse(response){
+    console.log(response.data);
+  }
+const apiKey = "6643c7326a4c2a38838264a28531d97e";
+let city="New York"
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   return (
     <div className="Weather">
       <div className="container">
@@ -29,7 +37,6 @@ export default function Weather() {
           <li>Tuesday, 10:00</li>
           <li>Partly cloudy</li>
         </ul>
-
         <div className="row mt-3">
           <div className="col-6">
             <img

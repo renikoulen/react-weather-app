@@ -1,0 +1,21 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.preferredDarkColorTheme": "Abyss",
+  "terminal.integrated.localEchoStyle": null,
+  "editor.tokenColorCustomizations": null,
+  "html.format.enable": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontLigatures": null,
+  "terminal.integrated.defaultLocation": "editor",
+  "bracketPairColorizer.depreciation-notice": false,
+  "workbench.startupEditor": "none",
+  "editor.tabCompletion": "on",
+  "editor.insertSpaces": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
