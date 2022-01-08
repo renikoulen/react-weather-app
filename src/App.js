@@ -15,7 +15,7 @@ export default function App() {
           <a
             href="https://github.com/renikoulen/react-weather-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             {" "}
             open-sourced on GitHub
@@ -24,7 +24,7 @@ export default function App() {
           <a
             href="https://jolly-fermi-3c1a49.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             hosted on Netlify
           </a>
