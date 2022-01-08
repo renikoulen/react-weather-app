@@ -15,9 +15,12 @@ export default function WeatherInfo(props) {
       </ul>
       <div className="row mt-3">
         <div className="col-6">
-          <WeatherIcon code={props.data.icon} alt={props.data.description} />
-          <WeatherTemperature celsius={props.data.temperature} />
-          
+          <WeatherIcon
+            code={props.data.icon}
+            size={52}
+            alt={props.data.description}
+          />
+          {props.data.temperature}°C
         </div>
         <div className="col-6">
           <ul>
@@ -29,3 +32,5 @@ export default function WeatherInfo(props) {
     </div>
   );
 }
+
+//https://api.openweathermap.org/data/2.5/onecall?lat=40.7127837&lon=-74&appid=6643c7326a4c2a38838264a28531d97e
