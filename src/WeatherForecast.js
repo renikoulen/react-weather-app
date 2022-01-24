@@ -3,7 +3,6 @@ import WeatherForecastDay from "./WeatherForecastDay";
 import "./WeatherForecast.css";
 import axios from "axios";
 
-
 export default function WeatherForecast(props) {
   let [loaded, setLoaded] = useState(false);
   let [forecast, setForecast] = useState(null);
@@ -17,7 +16,7 @@ export default function WeatherForecast(props) {
     setLoaded(true);
   }
 
-  function load(){
+  function load() {
     const apiKey = "6643c7326a4c2a38838264a28531d97e";
     let longitude = props.coordinates.lon;
     let latitude = props.coordinates.lat;
