@@ -3,6 +3,11 @@
   margin: 30px auto;
 }
 
+.App .container {
+  background-image: url(./orbit.png);
+  color: lightgray;
+}
+
 .App footer {
   font-size: 11px;
   margin: 10px 0;
